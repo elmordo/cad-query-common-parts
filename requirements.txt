@@ -1,0 +1,1 @@
+cadquery>=2.2.dev500+g9f329ff,<3.0

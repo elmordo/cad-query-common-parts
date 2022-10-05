@@ -20,10 +20,10 @@ def get_requirements():
 
 def main():
     setup(
-        name="cadquery-common-part-library",
+        name="cadquery-cpl",
         fullname="CadQuery 2 Common Part Library",
-        package_dir={"": SRC},
-        packages=find_packages(SRC),
+        package_dir={"": "src"},
+        packages=find_packages("src"),
         install_requires=get_requirements(),
         data_files=[("", ["requirements.txt"])]
     )
